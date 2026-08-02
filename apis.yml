@@ -1,8 +1,29 @@
 aid: thyme-care
 name: Thyme Care
-description: Thyme Care is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Thyme Care is a value-based oncology care-navigation and support company that
+  partners with health plans, providers, and employers to guide people through a
+  cancer diagnosis and treatment. Its virtual oncology care team and navigators
+  help members access care, coordinate with treating physicians, manage symptoms
+  and side effects, understand costs, and improve outcomes across the cancer
+  journey. Thyme Care delivers this through partner programs (Thyme Care Connect,
+  Thyme Care Signal, Thyme Box, and Enhanced Supportive Care) rather than a public
+  developer platform. As of this enrichment pass, no public developer portal, API
+  documentation, SDKs, or /.well-known API-discovery surface were found for Thyme
+  Care; it is profiled here as a company, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/thyme-care/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.thymecare.com/hubfs/Thyme-Care_Favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Oncology
+- Cancer Care
+- Care Navigation
+- Value-Based Care
+- Digital Health
+- Health Services
 apis: []
+common:
+- type: Blog
+  url: https://blog.thymecare.com/company
+- type: PrivacyPolicy
+  url: https://www.thymecare.com/privacy-policy
+- type: TermsOfService
+  url: https://www.thymecare.com/terms
+- type: Support
+  url: https://www.thymecare.com/company/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
