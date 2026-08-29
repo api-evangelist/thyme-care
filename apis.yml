@@ -12,6 +12,17 @@ description: >-
   documentation, SDKs, or /.well-known API-discovery surface were found for Thyme
   Care; it is profiled here as a company, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/thyme-care/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
