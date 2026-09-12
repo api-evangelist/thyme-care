@@ -55,6 +55,8 @@ tags:
 - Health Services
 apis: []
 common:
+- type: Website
+  url: https://www.thymecare.com/
 - type: Blog
   url: https://blog.thymecare.com/company
 - type: PrivacyPolicy
